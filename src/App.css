@@ -1,0 +1,28 @@
+.text_area__container {
+  position: relative;
+}
+.button__container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+.label-container {
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: -25px;
+  z-index: 1;
+  width: 150px;
+}
+
+.label-text {
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 14px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
