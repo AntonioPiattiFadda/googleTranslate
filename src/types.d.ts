@@ -8,7 +8,7 @@ export interface State {
   fromLanguage: FromLanguage;
   toLanguage: Languages;
   fromText: string;
-  res: string;
+  result: string;
   loading: boolean;
 }
 export type Action =

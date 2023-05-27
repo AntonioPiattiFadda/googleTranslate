@@ -134,7 +134,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-      {/* <Footer state={state} /> */}
+      {process.env.NODE_ENV !== 'production' && <Footer state={state} />}
     </>
   );
 }
