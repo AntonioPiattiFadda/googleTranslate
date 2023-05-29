@@ -9,6 +9,7 @@ This is a React application that allows users to instantly translate words and p
 - Translate words and phrases: Enter a word or phrase in the input field and get an instant translation in the desired target language.
 - Language selection: Choose the source and target languages from a list of supported languages.
 - Debouncer: The application uses a debounce function to optimize API calls and ensure efficient performance.
+- Copy and Speak functions: Copy the translated text to the clipboard or listen to the translation using text-to-speech.
 
 ## Demo
 
